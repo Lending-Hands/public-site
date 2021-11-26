@@ -12,7 +12,7 @@
 <html>
     <div class="topnav">
         <div class="topnav-group">
-          <a class="topnav-button" href="#">
+          <a class="topnav-button" href="../docs/home.html">
             <img src="../images/logo.png" alt="logo" class="base"></img>
             <img src="../images/logo-hover.png" alt="logo" class="hovering"></img>
             <p>Home</p>
@@ -24,22 +24,11 @@
 
         <div class="filler"></div>
         
-        <a id="button-account" class="topnav-button" href="" onclick="startAnimation('login-pane')"><p>Log In</p></a>
+        <a id="button-logout" class="topnav-button" href="../docs/index.html" onclick="logout()"><p>Log Out</p></a>
     </div>
-    <body onload="autoLogin()">
-      <div class="body-container">
-        <div style="display: flex; flex-grow: 10; align-items: center; justify-content: center;">
-          <div class="cover-img">
-            <p>Lend a hand.<br>Build your community.</p>
-          </div>
-        </div>
-        <div class="login">
-          <input type="text" name="username" id="username">
-          <label for="username">Username</label>
-          <input type="text" name="password" id="password">
-          <label>Password</label>
-          <button onclick="login('username')">Log In</button>
-        </div>
-      </div>
+    <body onload="getUser('login-status', 'Logged in as <*>.')">
+        <h1 id="login-status">
+            Not logged in
+        </h1>
     </body>
 </html>

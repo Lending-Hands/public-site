@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-container {
+  display: flex;
+  margin: 5px;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cover-img {
+  background-image: url('../images/volunteer.jpg');
+  height: 620px; 
+  width: 800px; 
+  background-size: 800px;
+  padding-top: 20px;
+}
+
+.cover-img p {
+  color: #6aa84f;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Alfa Slab One'; 
+  font-size: 30px;
+  margin: 20px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: eeeeee;
+  width: 200px;
+  height: 230px;
+  padding-top: 25px;
+}
+
+.login button {
+  background-color: #6aa84f;
+  color: #f2f2f2;
+  font-family: 'Nunito';
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
