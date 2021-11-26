@@ -12,33 +12,32 @@
 <html>
     <div class="topnav">
         <div class="topnav-group">
-          <a class="topnav-button" href="#">
+          <a class="topnav-button" href="../docs/home.html">
             <img src="../images/logo.png" alt="logo" class="base"></img>
             <img src="../images/logo-hover.png" alt="logo" class="hovering"></img>
             <p>Home</p>
           </a>
           
-          <a id="button-about" class="topnav-button" href="../docs/about.html"><p>About us</p></a>
+          <a id="button-about" class="topnav-button" href="#"><p>About us</p></a>
           <a id="button-map" class="topnav-button" href="#"><p>Map</p></a>
         </div>
 
         <div class="filler"></div>
         
-        <a id="button-account" class="topnav-button" href="" onclick="startAnimation('login-pane')"><p>Log In</p></a>
+        <a id="button-account" class="topnav-button" href="../docs/account.html"><p>Account</p></a>
     </div>
-    <body onload="autoLogin()">
-      <div class="body-container">
-        <div style="display: flex; flex-grow: 10; align-items: center; justify-content: center;">
+    <body>
+      <div class="body-container ">
+        <div style="display: flex; flex-grow: 10; align-items: center; justify-content: center;
+        margin-left: 2%; margin-right: 2%;">
           <div class="cover-img">
             <p>Lend a hand.<br>Build your community.</p>
           </div>
-        </div>
-        <div class="login">
-          <input type="text" name="username" id="username">
-          <label for="username">Username</label>
-          <input type="text" name="password" id="password">
-          <label>Password</label>
-          <button onclick="login('username')">Log In</button>
+          <div style="background-color: rgba(177, 177, 177, 0.856); font-family: Nunito;
+           font-size: 20; display: flex; align-items: left; justify-content: left;
+           padding-left: 3%; height: 100%; margin: 2%; width: 50%; max-width: 500px;">
+              <p>Our mission...</p>
+          </div>
         </div>
       </div>
     </body>
