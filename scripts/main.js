@@ -37,7 +37,6 @@ function logout() {
     sessionStorage.setItem("username", "");
     sessionStorage.setItem("userType", "");
     sessionStorage.setItem("events", "");
-
 }
 
 function getUser(elementId, insertIn) {
