@@ -4,9 +4,11 @@
     
     <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    <link rel="stylesheet" href="../Stylesheetsstylesheet.css">
-    <link rel="stylesheet" href="../Stylesheetstopnav.css">
-    <script src="../Scripts/main.js"></script>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/topnav.css">
+    <script src="../scripts/main.js"></script>
+
+    <title>Home - Lending Hands</title>
 </head>
 
 <html>
@@ -38,7 +40,8 @@
           <label for="username">Username</label>
           <input type="text" name="password" id="password">
           <label>Password</label>
-          <button onclick="login('username')">Log In</button>
+          <button onclick="login('username')">Log In as Volunteer</button>
+          <button style="margin-top: 10px;" onclick="loginOrg('username')">Log In as Organization</button>
         </div>
       </div>
     </body>
